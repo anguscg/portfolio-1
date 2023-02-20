@@ -31,17 +31,52 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  color: white;
 }
 
 .formcontainer {
-  background-color: #eee;
-  max-width: 40vw;
-}
-.formSection {
-  display: block;
+  background-color: black;
   
+  padding: 12px;
+}
+
+.formcontainer p {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  
+}
+.formSection button {
+  background-color: rgb(83, 83, 227);
+  color: white;
+  padding: 8px;
+  border: none;
+  font-size: 1.4rem;
+  border-radius: 8px;
+  
+
+}
+
+.formSection p {
+  margin-left: 5px;
+  font-size: 1.2rem;
 }
 
 .formlabel{
   text-align: left;
+}
+
+.messageinput {
+  
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.forminput {
+  border: none;
+  border-radius: 8px;
+  
+  margin-bottom: 10px;
+  color: black;
 }

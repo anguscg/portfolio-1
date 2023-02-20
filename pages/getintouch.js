@@ -10,23 +10,23 @@ export default function getinttouch() {
         <div className={styles.getintouchwrapper}>
             <NavbarGlobal />
             <div className={styles.contactpage}>
-            
                 <section className={styles.formcontainer}>
                     <h1>Get in touch</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt itaque, quam distinctio neque vel accusamus. </p>
-                    <form className={styles.formSection} action="">
-                        <label htmlFor="" className={styles.formlabel}>Name:</label>
-                        <input type="text" className={styles.forminput}/>
-                        <label htmlFor="" className={styles.formlabel}>Company:</label>
-                        <input placeholder="optional" className={styles.forminput} type="text"/>
-                        <input className={styles.messageinput} placeholder="message..." type="text"/>
+                    <p>Please fill in your details and I'll be sure to get back to you as soon as I can 😁</p>
+                    <form className={styles.formSection} action="post">
+                        <p>Name:</p>
+                        <input type="text" required id="name" className={styles.forminput} />
+                        <p>Company:</p>
+                        <input placeholder="optional" className={styles.forminput} required id="company" type="text" />
+                        <p>Message:</p>
+                        <input minLength="20" required className={styles.messageinput} type="text" />
+                        <div><button>Submit</button></div>
                     </form>
                 </section>
-            
-            
-        </div>
+            </div>
         </div>
         
     )
     
 }
+
