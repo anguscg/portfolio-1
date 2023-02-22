@@ -54,23 +54,25 @@ export const Card5 = () => (
           </Row>
         </Col>
         <Col>
-          <Row justify="flex-end">
-            <Button
-              flat
-              auto
-              rounded
-              css={{ color: "#94f9f0", bg: "#94f9f026" }}
-            >
-              <Text
-                css={{ color: "inherit" }}
-                size={12}
-                weight="bold"
-                transform="uppercase"
+          <a href="www.girlstrade.com.au" target="_blank">
+            <Row justify="flex-end">
+              <Button
+                flat
+                auto
+                rounded
+                css={{ color: "#94f9f0", bg: "#94f9f026" }}
               >
-                View Website
+                <Text
+                  css={{ color: "inherit" }}
+                  size={12}
+                  weight="bold"
+                  transform="uppercase"
+                >
+                  View Website
               </Text>
-            </Button>
-          </Row>
+              </Button>
+            </Row>
+          </a>
         </Col>
       </Row>
     </Card.Footer>
