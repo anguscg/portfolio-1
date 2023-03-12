@@ -1,13 +1,11 @@
 import Head from 'next/head'
 import styles from '@/styles/Home.module.css'
-import NavbarGlobal from "../components/Navbar.js"
+import NavbarGlobal from "components/Navbar.js"
 
 import { Grid, Container } from "@nextui-org/react";
-import { Card1 } from '../components/Card1';
-import { Card2 } from '../components/Card2';
-import { Card3 } from '../components/Card3';
-import { Card4 } from '../components/Card4';
-import { Card5 } from '../components/Card5';
+import { Card1 } from 'components/Card1.js';
+import { Card2 } from 'components/Card2.js';
+import { Card5 } from 'components/Card5.js';
 
 export default function Home() {
   return (
@@ -29,16 +27,16 @@ export default function Home() {
       <Container>
         <Grid.Container gap={2} justify="center">
           <Grid xs={12} sm={4}>
-            <Card1 />
+            <Card1 language="Javasript" title="Javascript Blockhain" image="https://images.pexels.com/photos/3571094/pexels-photo-3571094.jpeg?auto=compress&cs=tinysrgb&w=600"/>
           </Grid>
           <Grid xs={12} sm={4}>
-            <Card2 />
+            <Card1 language="React.js" title="Expense Tracker" image="https://images.pexels.com/photos/7567228/pexels-photo-7567228.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"/>
           </Grid>
           <Grid xs={12} sm={4}>
-            <Card3 />
+            <Card1 language="Next.js" title="Calculator App" image="https://images.pexels.com/photos/907489/pexels-photo-907489.jpeg?auto=compress&cs=tinysrgb&w=600"/>
           </Grid>
           <Grid xs={12} sm={5}>
-            <Card4 />
+            <Card2 />
           </Grid>
           <Grid xs={12} sm={7}>
             <Card5 />

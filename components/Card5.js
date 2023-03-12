@@ -1,4 +1,4 @@
-import { Card, Col, Row, Button, Text } from "@nextui-org/react";
+import { Card, Col, Row, Button, Text, Link } from "@nextui-org/react";
 
 export const Card5 = () => (
   <Card css={{ w: "100%", h: "400px" }}>
@@ -54,8 +54,9 @@ export const Card5 = () => (
           </Row>
         </Col>
         <Col>
-          <a href="www.girlstrade.com.au" target="_blank">
+          
             <Row justify="flex-end">
+            <Link href="https://www.girlstrade.com.au/" target="_blank">
               <Button
                 flat
                 auto
@@ -71,8 +72,9 @@ export const Card5 = () => (
                   View Website
               </Text>
               </Button>
+              </Link>
             </Row>
-          </a>
+          
         </Col>
       </Row>
     </Card.Footer>

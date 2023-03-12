@@ -27,6 +27,10 @@
   background-color: black;
   min-height: 100vh;
 }
+
+.contactTitle {
+  font-size: 6rem;
+}
 .contactpage {
   display: flex;
   justify-content: center;
@@ -64,6 +68,15 @@
 .formlabel{
   text-align: left;
 }
+.messageinput {
+  border: none;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 10px;
+  color: black;
+  width: 400px;
+  height: 200px;
+}
 
 
 .forminput {
@@ -72,4 +85,18 @@
   padding: 15px;
   margin-bottom: 10px;
   color: black;
+}
+
+
+.formButton {
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .messageinput {
+    max-width: 80vw;
+  }
+  .contactTitle {
+    font-size: 4rem;
+  }
 }

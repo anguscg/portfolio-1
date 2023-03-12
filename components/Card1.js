@@ -1,19 +1,19 @@
 import { Card, Col, Text } from "@nextui-org/react";
 
-export const Card1 = () => (
+export const Card1 = (props) => (
   <Card>
     <Card.Header css={{ position: "absolute", zIndex: 1, top: 5 }}>
       <Col>
         <Text size={12} weight="bold" transform="uppercase" color="#ffffffAA">
-          Next.js & node.js
+          {props.language}
         </Text>
         <Text h4 color="white">
-          Chat App
+          {props.title}
         </Text>
       </Col>
     </Card.Header>
     <Card.Image
-      src="https://images.pexels.com/photos/3571094/pexels-photo-3571094.jpeg?auto=compress&cs=tinysrgb&w=600"
+      src={props.image}
       objectFit="cover"
       width="100%"
       height={340}
